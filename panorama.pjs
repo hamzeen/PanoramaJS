@@ -23,7 +23,7 @@ float SINCOS_PRECISION = 0.5;
 int SINCOS_LENGTH = int(360.0 / SINCOS_PRECISION);
 
 void setup(){
-  sphere_tex = loadImage("interior.jpg");
+  sphere_tex = loadImage("bk_interior.jpg");
   size(sphere_tex.width,sphere_tex.height,P3D);
   pushBack = height/20;
   initializeSphere(sDetail);
